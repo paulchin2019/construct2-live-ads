@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="construct.admob.app" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-	<name>Construct2-admob</name>
-	<description>Construct2 admob demo</description>
+<widget id="construct.admob.appliveads" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>Construct2-admob-liveads</name>
+	<description>Construct2 admob live ads demo</description>
 	<author href="http://androidresearch.net">Paul Chin</author>
 
 	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
@@ -15,10 +15,6 @@
 	<preference name="AllowInlineMediaPlayback" value="true" />
 	<preference name="phonegap-version" value="cli-8.0.0" />
 
-	<config-file parent="UIStatusBarHidden" platform="ios" target="*-Info.plist"><true/></config-file>
-	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
-
-
 	<preference name="deployment-target" value="8.0" />
 	<preference name="android-minSdkVersion" value="21" />
 	<access origin="*" />
@@ -30,6 +26,6 @@
 		<variable name="ADMOB_APP_ID" value="ca-app-pub-5677932818243380~7604950362" />
 	</plugin>
 
-	<engine name="ios" />
+
 	<engine name="android" />
 </widget>
